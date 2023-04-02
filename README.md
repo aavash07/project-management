@@ -24,14 +24,13 @@ Things you may want to cover:
 * ...
 
 - Additional Gems used
-
-* jwt for token validation
-* ruby-enum for enum helper
-* jbulder for serializing objects
+  * jwt for token validation
+  * ruby-enum for enum helper
+  * jbulder for serializing objects
 
 
 - API modification
-* 'type' field in 'project' model was renamed to 'project_type' as type was column name reserved by Active Record
+  * 'type' field in 'project' model was renamed to 'project_type' as type was column name reserved by Active Record
 
 - steps to run server
 * run these commands: 
