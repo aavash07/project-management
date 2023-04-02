@@ -32,6 +32,7 @@ Things you may want to cover:
 - API modification
   * 'type' field in 'project' model was renamed to 'project_type' as type was column name reserved by Active Record
 
+
 - steps to run server
 * run these commands: 
   * bundle install
