@@ -54,7 +54,7 @@ class Api::V1::ProjectsController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def project_params
-    params.permit(:title, :description, :project_type, :location, :user_id, :thumbnail)
+    params.permit(:title, :description, :type, :location, :user_id, :thumbnail)
   end
 
   def verify_owner

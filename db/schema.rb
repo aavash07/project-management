@@ -51,7 +51,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_02_150941) do
   create_table "projects", force: :cascade do |t|
     t.string "title"
     t.text "description"
-    t.integer "project_type"
+    t.integer "type"
     t.string "location"
     t.integer "user_id", null: false
     t.datetime "created_at", null: false
