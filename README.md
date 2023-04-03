@@ -36,11 +36,23 @@ Things you may want to cover:
   * rails db:migrate
   * rails serve
 
-
 # For docker
 
-- create docker image named docker_image
-- run 'docker compose up'
+- create docker image named docker_image using
+
+  ```
+  docker build -t docker_image .
+  ```
+- create and migrate db
+
+  ```
+  docker compose run web rake db:create
+  ```
+
+  ```
+  docker compose run web rake db:migrate
+  ```
+- run docker compose using `docker compose up`
 
 # NOTE: All tasks are not complete:
 
