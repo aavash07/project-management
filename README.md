@@ -36,7 +36,12 @@ Things you may want to cover:
   * rails db:migrate
   * rails serve
 
+
+# For docker
+
+- create docker image named docker_image
+- run 'docker compose up'
+
 # NOTE: All tasks are not complete:
 
 - unable to complete RSPEC
-- unable to test dockerize due to hardware limitation of RAM
