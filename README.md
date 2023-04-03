@@ -52,7 +52,11 @@ Things you may want to cover:
   ```
   docker compose run web rake db:migrate
   ```
-- run docker compose using `docker compose up`
+- run docker compose using
+
+  ```
+  docker compose up
+  ```
 
 # NOTE: All tasks are not complete:
 
