@@ -8,11 +8,13 @@ application up and running.
   * jwt for token validation
   * ruby-enum for enum helper
   * jbulder for serializing objects
-  
+  * rubocop for syntax and formatting code
+  * rspec for unit testing
+  * shoulda-matchers for one-liners to test common Rails functionality
+  * faker a library for generating fake data
 - API modification
 
   * None
-  
 - Steps to run server
 
   Prerequisites:
@@ -47,7 +49,3 @@ application up and running.
   ```
   docker compose up
   ```
-
-# NOTE: All tasks are not complete:
-
-- unable to complete RSPEC
