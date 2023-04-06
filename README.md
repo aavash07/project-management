@@ -15,7 +15,7 @@ application up and running.
 - API modification
 
   * None
-- Steps to run server
+# Steps to run server
 
   Prerequisites:
 
