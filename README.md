@@ -23,13 +23,27 @@ application up and running.
   - rails version 7.0.4
 
 * run these commands:
-		- install gems
-  ```bundle install```
-		- create and migrate DB
-  ```rails db:create```
-  ```rails db:migrate```
-		- start rails server
-  ```rails serve```
+  - install gems
+  
+  ```
+  bundle install
+  ```
+  
+  - create and migrate DB
+  
+  ```
+  rails db:create
+  ```
+  
+  ```
+  rails db:migrate
+  ```
+  
+  - start rails server
+  
+  ```
+  rails serve
+  ```
 
 # For docker
 
