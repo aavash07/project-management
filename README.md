@@ -1,6 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
+This README documents whatever steps are necessary to get the
 application up and running.
 
 - Additional Gems used
@@ -23,15 +23,17 @@ application up and running.
   - rails version 7.0.4
 
 * run these commands:
-  * bundle install
-  * rails db:create
-  * rails db:migrate
-  * rails serve
+		- install gems
+  ```bundle install```
+		- create and migrate DB
+  ```rails db:create```
+  ```rails db:migrate```
+		- start rails server
+  ```rails serve```
 
 # For docker
 
 - create docker image named docker_image using
-
   ```
   docker build -t docker_image .
   ```
